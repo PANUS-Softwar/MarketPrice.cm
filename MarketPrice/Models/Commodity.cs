@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace MarketPrice.Models
+{
+    internal class Commodity
+    {
+        public Guid CommodityId { get; set; }
+        public Guid CommodityTypeId { get; set; }
+        public Guid UnitOfMeasureId { get; set; }
+
+        public required string CommodityName { get; set; }
+
+        public required string CommodityCode { get; set; }
+
+        public byte? ShelfLifeInDays { get; set; }
+
+        public string? Notes { get; set; }
+
+        public short? LotSize { get; set; }
+
+    }
+}
