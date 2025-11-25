@@ -4516,26 +4516,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lekeu\\.nuget\\packages\\": {},
-    "C:\\Program Files\\DevExpress 25.1\\Components\\Offline Packages": {},
+    "C:\\Users\\tertu\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Intership_Project\\MarketPrice\\MarketPrice\\MarketPrice.csproj",
+      "projectUniqueName": "C:\\Users\\Tertu\\source\\repos\\PANUS-Softwar\\Market_Price\\MarketPrice\\MarketPrice.csproj",
       "projectName": "MarketPrice",
-      "projectPath": "C:\\Intership_Project\\MarketPrice\\MarketPrice\\MarketPrice.csproj",
-      "packagesPath": "C:\\Users\\lekeu\\.nuget\\packages\\",
-      "outputPath": "C:\\Intership_Project\\MarketPrice\\MarketPrice\\obj\\",
+      "projectPath": "C:\\Users\\Tertu\\source\\repos\\PANUS-Softwar\\Market_Price\\MarketPrice\\MarketPrice.csproj",
+      "packagesPath": "C:\\Users\\tertu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Tertu\\source\\repos\\PANUS-Softwar\\Market_Price\\MarketPrice\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\DevExpress 25.1\\Components\\Offline Packages",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\lekeu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 25.1.config",
+        "C:\\Users\\tertu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4544,7 +4541,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\DevExpress 25.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -4622,7 +4618,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
