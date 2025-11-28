@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LDR_MAUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+ec05dca1250b00a8110500aa35fbb3e9ad740fd7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+0dfc54fd6f36877859614fa2f00dc88e5cee9b5e")]
 [assembly: System.Reflection.AssemblyProductAttribute("LDR_MAUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LDR_MAUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BCN_MAUI.MainPage"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="#F5F7FA">
+
+
+    <ScrollView>
+
+        <VerticalStackLayout>
+
+            <Grid RowDefinitions="Auto, *">
+
+                <Grid Grid.Row="0" 
+                    BackgroundColor="#2D3E50" 
+                    Padding="20,20,20,20"
+                    RowDefinitions="Auto, Auto">
+
+                    <HorizontalStackLayout Grid.Row="0" 
+                                           Spacing="15" 
+                                           VerticalOptions="Center">
+
+                        <Border StrokeShape="RoundRectangle 25" 
+                                HeightRequest="50" 
+                                WidthRequest="50" 
+                                StrokeThickness="0" 
+                                BackgroundColor="#EEE">
+
+                            <Label Text="MP" 
+                                   FontSize="24" 
+                                   FontAttributes="Bold" 
+                                   HorizontalOptions="Center" 
+                                   VerticalOptions="Center"
+                                   TextColor="#2D3E50"/>
+                        </Border>
+                        <!-- Text -->
+                        <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                            <Label Text="Welcome" TextColor="#A0AAB5" FontSize="14"/>
+                            <Label Text="CHU BEH" TextColor="White" FontSize="20" FontAttributes="Bold"/>
+                        </VerticalStackLayout>
+
+
+
+                    </HorizontalStackLayout>
+
+                    <Border Grid.Row="1"
+                            StrokeShape="RoundRectangle 10"
+                            BackgroundColor="white"
+                            HeightRequest="35"
+                            WidthRequest="250"
+                            StrokeThickness="0"
+                            Padding="20,0"
+                            Margin="10">
+
+                        <Label Text="Search for a commodity..."
+                               TextColor="#A0AAB5"
+                               FontSize="12"
+                               VerticalOptions="Center"/>
+                    </Border>
+
+                </Grid>
+            </Grid>
+
+            <Label Text="MARKET OVERVIEW"
+                   TextColor="Black"
+                   FontSize="18"
+                   HorizontalTextAlignment="Center"
+                   FontAttributes="Bold"
+                   Margin="10"/>
+
+            <Grid ColumnDefinitions="*,*" ColumnSpacing="15">
+
+                <Border Grid.Column="0"
+                        BackgroundColor="white"
+                        HeightRequest="250"
+                        StrokeShape="RoundRectangle 10"
+                        Margin="10">
+
+                    <VerticalStackLayout VerticalOptions="Center">
+
+                        <Label Text="ACTIVE BIDS"
+                               FontAttributes="Bold"
+                               TextColor="Black"
+                               HorizontalOptions="Center"/>
+                        
+                        <Label Text="10"
+                               FontAttributes="Bold"
+                               TextColor="#2D3E50"
+                               HorizontalOptions="Center"
+                               Margin="10"/>
+
+                    </VerticalStackLayout>
+                    
+                </Border>
+
+                <Border Grid.Column="1"
+                    BackgroundColor="white"
+                    HeightRequest="250"
+                    StrokeShape="RoundRectangle 10"
+                    Margin="10">
+
+                    <VerticalStackLayout VerticalOptions="Center">
+
+                        <Label Text="ACTIVE OFFERS"
+           FontAttributes="Bold"
+           TextColor="Black"
+           HorizontalOptions="Center"/>
+
+                        <Label Text="5"
+           FontAttributes="Bold"
+           TextColor="#2D3E50"
+           HorizontalOptions="Center"
+           Margin="10"/>
+
+                    </VerticalStackLayout>
+
+
+                </Border>
+
+            </Grid>
+            
+        </VerticalStackLayout>
+
+        
+        
+    </ScrollView>
+
+</ContentPage>
