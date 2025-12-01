@@ -524,3 +524,6 @@ C:\Users\natan\OneDrive\Documents\ATAN_Internship_dir\Internship_Project\Market_
 C:\Users\natan\OneDrive\Documents\ATAN_Internship_dir\Internship_Project\Market_Price\ATAN_MAUI\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\market_image.scale-100.jpg
 C:\Users\natan\OneDrive\Documents\ATAN_Internship_dir\Internship_Project\Market_Price\ATAN_MAUI\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\footer_bran_icon.scale-100.png
 C:\Users\natan\OneDrive\Documents\ATAN_Internship_dir\Internship_Project\Market_Price\ATAN_MAUI\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\footer_bran_icon.scale-100.png
+C:\Users\natan\OneDrive\Documents\ATAN_Internship_dir\Internship_Project\Market_Price\ATAN_MAUI\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Maui.dll
+C:\Users\natan\OneDrive\Documents\ATAN_Internship_dir\Internship_Project\Market_Price\ATAN_MAUI\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\CommunityToolkit.Maui.Core.dll
+C:\Users\natan\OneDrive\Documents\ATAN_Internship_dir\Internship_Project\Market_Price\ATAN_MAUI\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\System.Speech.dll

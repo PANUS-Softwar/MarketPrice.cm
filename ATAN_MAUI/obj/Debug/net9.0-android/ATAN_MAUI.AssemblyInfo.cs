@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ATAN_MAUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+bd8d07adae0c746dc5043bc99aa15fb75c5b2920")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+d56ea0155d1c54f42ac5f1239ab8106b4f8abd72")]
 [assembly: System.Reflection.AssemblyProductAttribute("ATAN_MAUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ATAN_MAUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -12,7 +12,7 @@
         Title="Dashboard"
         Icon="{StaticResource IconDashboard}"
         ContentTemplate="{DataTemplate pages:MainPage}"
-        Route="main" />
+        Route="Main" />
 
     <ShellContent
         Title="Projects"

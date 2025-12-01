@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TTEK_MAUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+0dfc54fd6f36877859614fa2f00dc88e5cee9b5e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+d56ea0155d1c54f42ac5f1239ab8106b4f8abd72")]
 [assembly: System.Reflection.AssemblyProductAttribute("TTEK_MAUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TTEK_MAUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

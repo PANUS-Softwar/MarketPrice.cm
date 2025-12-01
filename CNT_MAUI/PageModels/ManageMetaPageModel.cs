@@ -100,7 +100,7 @@ namespace CNT_MAUI.PageModels
             Preferences.Default.Remove("is_seeded");
             await _seedDataService.LoadSeedDataAsync();
             Preferences.Default.Set("is_seeded", true);
-            await Shell.Current.GoToAsync("//main");
+            await Shell.Current.GoToAsync("//Main");
         }
     }
 }

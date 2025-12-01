@@ -41,7 +41,7 @@
                     FontAutoScalingEnabled="True"
                     TextColor="White"
                     SemanticProperties.Hint="Directs you to the offer/bid page"
-                    Clicked="OnCounterClicked"
+                    Clicked="OnGetStartedClicked"
                     HorizontalOptions="Fill"
                     />
             </VerticalStackLayout>

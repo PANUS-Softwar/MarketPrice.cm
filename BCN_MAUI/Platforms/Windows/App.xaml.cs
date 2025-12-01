@@ -12,7 +12,7 @@ namespace BCN_MAUI.WinUI
     {
         /// <summary>
         /// Initializes the singleton application object.  This is the first line of authored code
-        /// executed, and as such is the logical equivalent of main() or WinMain().
+        /// executed, and as such is the logical equivalent of Main() or WinMain().
         /// </summary>
         public App()
         {

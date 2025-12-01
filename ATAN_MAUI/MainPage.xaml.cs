@@ -22,5 +22,12 @@
 
             SemanticScreenReader.Announce(CounterBtn.Text);
         }
+
+
+        // Navigate to HomePage
+        private async void OnGetStartedClicked(object? sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync(nameof(HomePage));
+        }
     }
 }
