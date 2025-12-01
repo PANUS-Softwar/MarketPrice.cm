@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MarketPrice.Models
 {
-    internal class Rating
+    public class Rating
     {
         public Guid RatingId { get; set; }
         public Guid RaterUserId { get; set; }

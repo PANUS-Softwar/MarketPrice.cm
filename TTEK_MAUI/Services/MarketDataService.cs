@@ -12,7 +12,7 @@ namespace TTEK_MAUI.Services
     {
         private readonly HttpClient _httpClient = new HttpClient();
 
-        private const string BaseUrl = "https://10.0.2.2.2:7123/api/MarketData/Summary";
+        private const string BaseUrl = "https://10.0.2.2.2:7206/api/MarketData/Summary";
 
         public async Task<MarketSummaryModel?> GetMarketSummaryAsync()
         {

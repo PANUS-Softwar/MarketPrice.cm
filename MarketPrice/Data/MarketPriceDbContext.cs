@@ -9,7 +9,7 @@ using MarketPrice.Models;
 
 namespace MarketPrice.Data
 {
-    internal class MarketPriceDbContext : DbContext
+    public class MarketPriceDbContext(DbContextOptions<MarketPriceDbContext> options) : DbContext(options)
     {
         public DbSet<Commodity> Commodities { get; set; }
         public DbSet<DeliveryDetail> DeliveryDetails { get; set; }
@@ -23,10 +23,6 @@ namespace MarketPrice.Data
         public DbSet<Verification> Verifications { get; set; }
         public DbSet<CommodityType> CommodityTypes { get; set; }
 
-
-        public MarketPriceDbContext(DbContextOptions<MarketPriceDbContext> options)
-            : base(options)
-        { }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -262,6 +258,105 @@ namespace MarketPrice.Data
             modelBuilder.Entity<UnitOfMeasure>()
                 .Property(u => u.UnitOfMeasureId)
                 .HasDefaultValueSql("NEWID()");
+
+            var testedUserId = Guid.Parse("A5C70D21-7D22-4F11-A5B0-1F080F16C777");
+            var testedCommodityId = Guid.Parse("B9F8D405-2C5E-4D6F-9F7C-4C82A2E6E888");
+            var activeStatusId = 5001;
+
+            modelBuilder.Entity<User>().HasData(
+                new User
+                {
+                    UserId = testedUserId, AccountTypeId = 1001, DateRecorded = DateTime.UtcNow, EmailAddress = "John@gmail.com", 
+                    FamilyName = "Smith", FirstName = "John", IdCardNumber = "1235565467875588", IsPremiumUser = false, OtherNames = "Peter", PasswordHash = "John123", PhoneNumber = "7799007654"
+
+                }
+            );
+
+            modelBuilder.Entity<Commodity>().HasData(
+                new Commodity
+                {
+                    CommodityId = testedCommodityId, CommodityTypeId = 3001, CommodityName = "Corn",
+                    UnitOfMeasureId = Guid.NewGuid()
+                }
+            );
+
+
+            modelBuilder.Entity<Position>().HasData(
+                new Position
+                {
+                    PositionId = Guid.NewGuid(),
+                    PositionTypeId = 6001,
+                    Quantity = 100,
+                    UnitPrice = 50.00m,
+                    CurrentStatusId = activeStatusId,
+                    CommodityId = Guid.NewGuid(),
+                    UserId = Guid.NewGuid(),
+                    StartDate = DateTime.UtcNow,
+                    ExpiryDate = DateTime.UtcNow.AddDays(7),
+                    DateUpdated = DateTime.UtcNow,
+                    Date = DateTime.UtcNow
+                },
+
+                new Position
+
+                {
+                    PositionId = Guid.NewGuid(),
+                    PositionTypeId = 6001,
+                    Quantity = 200,
+                    UnitPrice = 51.00m,
+                    CurrentStatusId = activeStatusId,
+                    CommodityId = Guid.NewGuid(),
+                    UserId = Guid.NewGuid(),
+                    StartDate = DateTime.UtcNow,
+                    ExpiryDate = DateTime.UtcNow.AddDays(5),
+                    DateUpdated = DateTime.UtcNow,
+                    Date = DateTime.UtcNow
+                },
+
+                new Position
+                {
+                    PositionId = Guid.NewGuid(),
+                    PositionTypeId = 6001,
+                    Quantity = 95,
+                    UnitPrice = 53.00m,
+                    CurrentStatusId = activeStatusId,
+                    CommodityId = Guid.NewGuid(),
+                    UserId = Guid.NewGuid(),
+                    StartDate = DateTime.UtcNow,
+                    ExpiryDate = DateTime.UtcNow.AddDays(10),
+                    DateUpdated = DateTime.UtcNow,
+                    Date = DateTime.UtcNow
+                },
+
+                new Position()
+                {
+                    PositionId = Guid.NewGuid(),
+                    PositionTypeId = 6002,
+                    Quantity = 150,
+                    UnitPrice = 51.00m,
+                    CurrentStatusId = activeStatusId,
+                    CommodityId = Guid.NewGuid(),
+                    UserId = Guid.NewGuid(),
+                    StartDate = DateTime.UtcNow,
+                    ExpiryDate = DateTime.UtcNow.AddDays(7),
+                    DateUpdated = DateTime.UtcNow,
+                    Date = DateTime.UtcNow
+                },
+
+                new Position()
+                {
+                    PositionId = Guid.NewGuid(),
+                    PositionTypeId = 6002,
+                    Quantity = 250,
+                    UnitPrice = 51.00m,
+                    CurrentStatusId = activeStatusId,
+                    CommodityId = Guid.NewGuid(),
+                    UserId = Guid.NewGuid(),
+                    StartDate = DateTime.UtcNow,
+                    ExpiryDate = DateTime.UtcNow.AddDays(7),
+                    DateUpdated = DateTime.UtcNow,
+                    Date = DateTime.UtcNow
+                });
         }
 
     }

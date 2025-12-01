@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "ContainingType": "MarketPrice.Controllers.MarketDataController",
+    "Method": "GetMarketSummary",
+    "RelativePath": "api/MarketData/Summary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "MarketPrice.Models.MarketSummaryModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
