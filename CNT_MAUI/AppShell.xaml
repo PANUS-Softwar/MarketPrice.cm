@@ -4,34 +4,35 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:CNT_MAUI"
+    xmlns:views="clr-namespace:CNT_MAUI.Views"
     Title="CNT_MAUI">
 
     <ShellContent
         Title="Welcome"
-        ContentTemplate="{DataTemplate local:WelcomePage}"
-        Route="WelcomePage"
+        ContentTemplate="{DataTemplate views:WelcomeView}"
+        Route="WelcomeView"
         Shell.NavBarIsVisible="False"/>
 
     <TabBar>
         <ShellContent
             Title="Home"
             Icon="home.png"
-            ContentTemplate="{DataTemplate local:MainPage}"
-            Route="MainPage" 
+            ContentTemplate="{DataTemplate views:HomeView}"
+            Route="HomeView" 
             Shell.NavBarIsVisible="False"/>
 
         <ShellContent
             Title="Market"
             Icon="market.png"
-            ContentTemplate="{DataTemplate local:MarketPage}"
-            Route="MarketPage"
+            ContentTemplate="{DataTemplate views:MarketView}"
+            Route="MarketView"
             Shell.NavBarIsVisible="False"/>
 
         <ShellContent
             Title="Profile"
             Icon="profile.png"
-            ContentTemplate="{DataTemplate local:ProfilePage}"
-            Route="ProfilePage"
+            ContentTemplate="{DataTemplate views:ProfileView}"
+            Route="ProfileView"
             Shell.NavBarIsVisible="False"/>
     </TabBar>
 

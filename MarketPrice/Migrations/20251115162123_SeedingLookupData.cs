@@ -10,6 +10,17 @@ namespace MarketPrice.Migrations
         /// <inheritdoc />
             protected override void Up(MigrationBuilder migrationBuilder)
         {
+            // Lookup Data Types
+            migrationBuilder.Sql("INSERT INTO [LookupDataTypes] (LookupDataTypeId, LookupDataTypeName) VALUES (1000, 'AccountTypes')");
+            migrationBuilder.Sql("INSERT INTO [LookupDataTypes] (LookupDataTypeId, LookupDataTypeName) VALUES (2000, 'CommodityGroups')");
+            migrationBuilder.Sql("INSERT INTO [LookupDataTypes] (LookupDataTypeId, LookupDataTypeName) VALUES (3000, 'CommodityTypes')");
+            migrationBuilder.Sql("INSERT INTO [LookupDataTypes] (LookupDataTypeId, LookupDataTypeName) VALUES (4000, 'LocationTypes')");
+            migrationBuilder.Sql("INSERT INTO [LookupDataTypes] (LookupDataTypeId, LookupDataTypeName) VALUES (5000, 'PositionCurrentStatus')");
+            migrationBuilder.Sql("INSERT INTO [LookupDataTypes] (LookupDataTypeId, LookupDataTypeName) VALUES (6000, 'PositionTypes')");
+            migrationBuilder.Sql("INSERT INTO [LookupDataTypes] (LookupDataTypeId, LookupDataTypeName) VALUES (7000, 'Regions')");
+            migrationBuilder.Sql("INSERT INTO [LookupDataTypes] (LookupDataTypeId, LookupDataTypeName) VALUES (8000, 'VerificationCurrentStatus')");
+            migrationBuilder.Sql("INSERT INTO [LookupDataTypes] (LookupDataTypeId, LookupDataTypeName) VALUES (9000, 'VerificationTypes')");
+
             // --- Type 1000: Account Types ---
             migrationBuilder.Sql("INSERT INTO [LookupData] (LookupDataId, LookupDataTypeId, LookupDataValue, LookupDataTextEnglish, LookupDataTextFrench) VALUES (1001, 1000, 'Personal', 'Personal', N'Individuel')");
             migrationBuilder.Sql("INSERT INTO [LookupData] (LookupDataId, LookupDataTypeId, LookupDataValue, LookupDataTextEnglish, LookupDataTextFrench) VALUES (1002, 1000, 'Business', 'Business', N'Entreprise')");

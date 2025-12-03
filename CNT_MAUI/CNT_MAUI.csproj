@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<TargetFrameworks>net9.0-android;net9.0-ios;net9.0-maccatalyst</TargetFrameworks>
@@ -65,15 +65,32 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="MarketPage.xaml">
+	  <MauiXaml Update="Views\MarketView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="ProfilePage.xaml">
+	  <MauiXaml Update="Views\ProfileView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="WelcomePage.xaml">
+	  <MauiXaml Update="Views\WelcomeView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Models\" />
+	  <Folder Include="ViewModels\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Views\HomeView.xaml.cs">
+	    <DependentUpon>HomeView.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\ProfileView.xaml.cs">
+	    <DependentUpon>ProfileView.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\WelcomeView.xaml.cs">
+	    <DependentUpon>WelcomeView.xaml</DependentUpon>
+	  </Compile>
 	</ItemGroup>
 
 </Project>

@@ -516,3 +516,37 @@ C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\marketprice_logo.scale-100.png
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\marketprice_logo.scale-100.png
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Quintessential-Regular.ttf
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\home.scale-100.png
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\market.scale-100.png
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\profile.scale-100.png
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\Quintessential-Regular.ttf
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\market.scale-100.png
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\profile.scale-100.png
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\DMSerifText-Regular.ttf
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\DMSerifText-Regular.ttf
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\CormorantGaramond-Regular.ttf
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\CormorantGaramond-Regular.ttf
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Beach House.otf
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Beach-House.otf
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\DMSans-Medium.ttf
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Domine-Regular.ttf
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\NotoSans-Medium.ttf
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\beans.scale-100.jpg
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\corn.scale-100.jpg
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\egusi.scale-100.jpg
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ginger.scale-100.jpg
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\onion.scale-100.jpg
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\palm_oil.scale-100.jpg
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\Beach House.otf
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\Beach-House.otf
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\DMSans-Medium.ttf
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\Domine-Regular.ttf
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\NotoSans-Medium.ttf
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\beans.scale-100.jpg
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\corn.scale-100.jpg
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\egusi.scale-100.jpg
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\ginger.scale-100.jpg
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\onion.scale-100.jpg
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\palm_oil.scale-100.jpg

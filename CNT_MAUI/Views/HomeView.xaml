@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CNT_MAUI.Views.HomeView">
+
+    <Grid RowDefinitions="Auto,*">
+        <HorizontalStackLayout
+            Grid.Row="0"
+            BackgroundColor="White"
+            Spacing="15"
+            Padding="5">
+            <Image
+                Source="marketprice_logo.png"
+                HeightRequest="50"
+                HorizontalOptions="Start"/>
+            <Label  
+                Text="MarketPrice"
+                FontSize="20"
+                FontFamily="DMSerifTextRegular"
+                VerticalOptions="Center"/>
+        </HorizontalStackLayout>
+
+        <ScrollView Grid.Row="1">
+            <VerticalStackLayout
+                BackgroundColor="WhiteSmoke"
+                Padding="15"
+                Spacing="5">
+
+                <Label
+                    Text="Welcome, Tertullien !"
+                    FontSize="25"
+                    FontFamily="DMSerifTextRegular"
+                    TextColor="MediumBlue"
+                    FontAttributes="Bold"/>
+
+                <Label
+                    Text="Ready to discover a price that satisfy you ?"
+                    FontSize="13"
+                    FontFamily="DMSerifTextRegular"/>
+
+                <Border
+                    HeightRequest="7"
+                    BackgroundColor="DarkGray"
+                    Margin="0,15"/>
+
+                <Border 
+                    HorizontalOptions="Fill" 
+                    StrokeShape="RoundRectangle 25" 
+                    StrokeThickness="1" 
+                    Stroke="DarkGrey">
+                    <SearchBar
+                        Placeholder="Search for a commodity ..."
+                        BackgroundColor="Transparent"
+                        HorizontalOptions="Fill"/>
+                </Border>
+
+                <Label
+                    Text="Trending Market Activities"
+                    FontSize="20"
+                    FontFamily="DMSerifTextRegular"
+                    Padding="0,15,0,0"/>
+
+                <Grid
+                    RowDefinitions="*"
+                    ColumnDefinitions="4.5*,4.5*"
+                    ColumnSpacing="15"
+                    Padding="0,10">
+                    <Border
+                        Grid.Column="0"
+                        BackgroundColor="White"
+                        StrokeShape="RoundRectangle 25"
+                        StrokeThickness="5"
+                        Stroke="DarkGrey"
+                        HeightRequest="150"
+                        Padding="10,25">
+                        <VerticalStackLayout>
+                            <Label
+                                Text="Total Active Bids"
+                                FontSize="20"
+                                HorizontalOptions="Center"
+                                FontFamily="DMSerifTextRegular"/>
+
+                            <BoxView
+                                HeightRequest="3"
+                                Color="DarkGrey"
+                                Margin="0,15"/>
+
+                            <Label
+                                Text="44"
+                                FontSize="30"
+                                HorizontalOptions="Center"
+                                TextColor="MediumBlue"
+
+                                FontAttributes="Bold"
+                                FontFamily="DMSerifTextRegular"/>
+                        </VerticalStackLayout>
+                    </Border>
+                    
+                    <Border
+                        Grid.Column="1"
+                        BackgroundColor="White"
+                        StrokeShape="RoundRectangle 25"
+                        StrokeThickness="5"
+                        Stroke="DarkGrey"
+                        HeightRequest="150"
+                        Padding="10,25">
+                        <VerticalStackLayout>
+                            <Label
+                                Text="Total Active Asks"
+                                FontSize="20"
+                                HorizontalOptions="Center"
+                                FontFamily="DMSerifTextRegular"/>
+
+                            <BoxView
+                                HeightRequest="3"
+                                Color="DarkGrey"
+                                Margin="0,15"/>
+
+                            <Label
+                                Text="79"
+                                FontSize="30"
+                                HorizontalOptions="Center"
+                                TextColor="MediumBlue"
+                                FontAttributes="Bold"
+                                FontFamily="DMSerifTextRegular"/>
+                        </VerticalStackLayout>
+                    </Border>
+                </Grid>
+
+                <Label
+                    Text="Explore Commodities"
+                    FontSize="20"
+                    FontFamily="DMSerifTextRegular"/>
+
+                <Border 
+                    BackgroundColor="White"
+                    StrokeShape="RoundRectangle 25"
+                    StrokeThickness="3"
+                    Stroke="DarkGrey"
+                    HeightRequest="100">
+                    <Grid
+                        ColumnDefinitions="1.9*,6*"
+                        RowDefinitions="*"
+                        Padding="5">
+
+                        <Border
+                            BackgroundColor="Transparent"
+                            Grid.Column="0"
+                            Padding="0"
+                            StrokeShape="RoundRectangle 100"
+                            Stroke="DarkGrey"
+                            StrokeThickness="3">
+                            <Image
+                                Source="corn.jpg"
+                                HorizontalOptions="Center"
+                                HeightRequest="80"
+                                WidthRequest="80"
+                                Aspect="AspectFill"/>
+                        </Border>
+
+                        <VerticalStackLayout Grid.Column="1" Padding="15,5">
+                            <Label
+                                Text="Corn"
+                                FontAttributes="Bold"
+                                FontFamily="DMSerifTextRegular"
+                                FontSize="20"/>
+
+                            <Label
+                                Text="Best bid price: 500 FCFA per Kg"/>
+
+                            <Label
+                                Text="Best ask price: 420 FCFA per Kg"/>
+                        </VerticalStackLayout>
+
+                    </Grid>
+
+                </Border>
+                
+                <Border 
+                    BackgroundColor="White"
+                    StrokeShape="RoundRectangle 25"
+                    StrokeThickness="3"
+                    Stroke="DarkGrey"
+                    HeightRequest="100">
+                    <Grid
+                        ColumnDefinitions="1.9*,6*"
+                        RowDefinitions="*"
+                        Padding="5">
+
+                        <Border
+                            BackgroundColor="Transparent"
+                            Grid.Column="0"
+                            Padding="0"
+                            StrokeShape="RoundRectangle 100"
+                            Stroke="DarkGrey"
+                            StrokeThickness="3">
+                            <Image
+                                Source="beans.jpg"
+                                HorizontalOptions="Center"
+                                HeightRequest="80"
+                                WidthRequest="80"
+                                Aspect="AspectFill"/>
+                        </Border>
+
+                        <VerticalStackLayout Grid.Column="1" Padding="15,5">
+                            <Label
+                                Text="Beans"
+                                FontAttributes="Bold"
+                                FontFamily="DMSerifTextRegular"
+                                FontSize="20"/>
+
+                            <Label
+                                Text="Best bid price: 500 FCFA per Kg"/>
+
+                            <Label
+                                Text="Best ask price: 420 FCFA per Kg"/>
+                        </VerticalStackLayout>
+
+                    </Grid>
+
+                </Border>
+                
+                <Border 
+                    BackgroundColor="White"
+                    StrokeShape="RoundRectangle 25"
+                    StrokeThickness="3"
+                    Stroke="DarkGrey"
+                    HeightRequest="100">
+                    <Grid
+                        ColumnDefinitions="1.9*,6*"
+                        RowDefinitions="*"
+                        Padding="5">
+
+                        <Border
+                            BackgroundColor="Transparent"
+                            Grid.Column="0"
+                            Padding="0"
+                            StrokeShape="RoundRectangle 100"
+                            Stroke="DarkGrey"
+                            StrokeThickness="3">
+                            <Image
+                                Source="egusi.jpg"
+                                HorizontalOptions="Center"
+                                HeightRequest="80"
+                                WidthRequest="80"
+                                Aspect="AspectFill"/>
+                        </Border>
+
+                        <VerticalStackLayout Grid.Column="1" Padding="15,5">
+                            <Label
+                                Text="Egusi"
+                                FontAttributes="Bold"
+                                FontFamily="DMSerifTextRegular"
+                                FontSize="20"/>
+
+                            <Label
+                                Text="Best bid price: 780 FCFA per Kg"/>
+
+                            <Label
+                                Text="Best ask price: 640 FCFA per Kg"/>
+                        </VerticalStackLayout>
+
+                    </Grid>
+
+                </Border>
+                
+                <Border 
+                    BackgroundColor="White"
+                    StrokeShape="RoundRectangle 25"
+                    StrokeThickness="3"
+                    Stroke="DarkGrey"
+                    HeightRequest="100">
+                    <Grid
+                        ColumnDefinitions="1.9*,6*"
+                        RowDefinitions="*"
+                        Padding="5">
+
+                        <Border
+                            BackgroundColor="Transparent"
+                            Grid.Column="0"
+                            Padding="0"
+                            StrokeShape="RoundRectangle 100"
+                            Stroke="DarkGrey"
+                            StrokeThickness="3">
+                            <Image
+                                Source="palm_oil.jpg"
+                                HorizontalOptions="Center"
+                                HeightRequest="80"
+                                WidthRequest="80"
+                                Aspect="AspectFill"/>
+                        </Border>
+
+                        <VerticalStackLayout Grid.Column="1" Padding="15,5">
+                            <Label
+                                Text="Palm Oil"
+                                FontAttributes="Bold"
+                                FontFamily="DMSerifTextRegular"
+                                FontSize="20"/>
+
+                            <Label
+                                Text="Best bid price: 500 FCFA per Kg"/>
+
+                            <Label
+                                Text="Best ask price: 420 FCFA per Kg"/>
+                        </VerticalStackLayout>
+
+                    </Grid>
+
+                </Border>
+               
+                <Border 
+                    BackgroundColor="White"
+                    StrokeShape="RoundRectangle 25"
+                    StrokeThickness="3"
+                    Stroke="DarkGrey"
+                    HeightRequest="100">
+                    <Grid
+                        ColumnDefinitions="1.9*,6*"
+                        RowDefinitions="*"
+                        Padding="5">
+
+                        <Border
+                            BackgroundColor="Transparent"
+                            Grid.Column="0"
+                            Padding="0"
+                            StrokeShape="RoundRectangle 100"
+                            Stroke="DarkGrey"
+                            StrokeThickness="3">
+                            <Image
+                                Source="onion.jpg"
+                                HorizontalOptions="Center"
+                                HeightRequest="80"
+                                WidthRequest="80"
+                                Aspect="AspectFill"/>
+                        </Border>
+
+                        <VerticalStackLayout Grid.Column="1" Padding="15,5">
+                            <Label
+                                Text="Onion"
+                                FontAttributes="Bold"
+                                FontFamily="DMSerifTextRegular"
+                                FontSize="20"/>
+
+                            <Label
+                                Text="Best bid price: 500 FCFA per Kg"/>
+
+                            <Label
+                                Text="Best ask price: 420 FCFA per Kg"/>
+                        </VerticalStackLayout>
+
+                    </Grid>
+
+                </Border>
+               
+                <Border 
+                    BackgroundColor="White"
+                    StrokeShape="RoundRectangle 25"
+                    StrokeThickness="3"
+                    Stroke="DarkGrey"
+                    HeightRequest="100">
+                    <Grid
+                        ColumnDefinitions="1.9*,6*"
+                        RowDefinitions="*"
+                        Padding="5">
+
+                        <Border
+                            BackgroundColor="Transparent"
+                            Grid.Column="0"
+                            Padding="0"
+                            StrokeShape="RoundRectangle 100"
+                            Stroke="DarkGrey"
+                            StrokeThickness="3">
+                            <Image
+                                Source="ginger.jpg"
+                                HorizontalOptions="Center"
+                                HeightRequest="80"
+                                WidthRequest="80"
+                                Aspect="AspectFill"/>
+                        </Border>
+
+                        <VerticalStackLayout Grid.Column="1" Padding="15,5">
+                            <Label
+                                Text="Ginger"
+                                FontAttributes="Bold"
+                                FontFamily="DMSerifTextRegular"
+                                FontSize="20"/>
+
+                            <Label
+                                Text="Best bid price: 500 FCFA per Kg"/>
+
+                            <Label
+                                Text="Best ask price: 420 FCFA per Kg"/>
+                        </VerticalStackLayout>
+
+                    </Grid>
+
+                </Border>
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+    </Grid>
+</ContentPage>
