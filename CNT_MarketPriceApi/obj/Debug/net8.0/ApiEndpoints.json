@@ -1,0 +1,96 @@
+[
+  {
+    "ContainingType": "CNT_MarketPriceApi.Controllers.LookupDataTypesController",
+    "Method": "Get",
+    "RelativePath": "LookupDataTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[MarketPrice.Models.LookupDataType, MarketPrice, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CNT_MarketPriceApi.Controllers.LookupDataTypesController",
+    "Method": "Post",
+    "RelativePath": "LookupDataTypes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lookupDataType",
+        "Type": "MarketPrice.Models.LookupDataType",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CNT_MarketPriceApi.Controllers.LookupDataTypesController",
+    "Method": "Put",
+    "RelativePath": "LookupDataTypes",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lookupDataType",
+        "Type": "MarketPrice.Models.LookupDataType",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CNT_MarketPriceApi.Controllers.LookupDataTypesController",
+    "Method": "Get",
+    "RelativePath": "LookupDataTypes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MarketPrice.Models.LookupDataType",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CNT_MarketPriceApi.Controllers.LookupDataTypesController",
+    "Method": "Delete",
+    "RelativePath": "LookupDataTypes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

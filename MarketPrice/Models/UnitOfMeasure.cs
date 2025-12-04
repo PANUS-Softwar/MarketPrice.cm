@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MarketPrice.Models
 {
-    internal class UnitOfMeasure
+    public class UnitOfMeasure
     {
         public Guid UnitOfMeasureId { get; set; }
         public required string UnitOfMeasureNameEnglish { get; set; }

@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LDR_MAUI", "LDR_MAUI\LDR_MA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CNT_MAUI", "CNT_MAUI\CNT_MAUI.csproj", "{CA11A30B-2773-478B-997D-6AB2ADD233D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CNT_MarketPriceApi", "CNT_MarketPriceApi\CNT_MarketPriceApi.csproj", "{F972D620-7C74-459A-82AC-F0B7E0E88D2A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +48,10 @@ Global
 		{CA11A30B-2773-478B-997D-6AB2ADD233D7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{CA11A30B-2773-478B-997D-6AB2ADD233D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA11A30B-2773-478B-997D-6AB2ADD233D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F972D620-7C74-459A-82AC-F0B7E0E88D2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F972D620-7C74-459A-82AC-F0B7E0E88D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F972D620-7C74-459A-82AC-F0B7E0E88D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F972D620-7C74-459A-82AC-F0B7E0E88D2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

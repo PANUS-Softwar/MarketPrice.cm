@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MarketPrice.Models
 {
-    internal class User
+    public class User
     {
         public Guid UserId { get; set; }
         public required int AccountTypeId { get; set; }

@@ -9,7 +9,7 @@ using MarketPrice.Models;
 
 namespace MarketPrice.Data
 {
-    internal class MarketPriceDbContext : DbContext
+    public class MarketPriceDbContext(DbContextOptions<MarketPriceDbContext> options) : DbContext(options)
     {
         public DbSet<Commodity> Commodities { get; set; }
         public DbSet<DeliveryDetail> DeliveryDetails { get; set; }
@@ -23,10 +23,6 @@ namespace MarketPrice.Data
         public DbSet<Verification> Verifications { get; set; }
         public DbSet<CommodityType> CommodityTypes { get; set; }
 
-
-        public MarketPriceDbContext(DbContextOptions<MarketPriceDbContext> options)
-            : base(options)
-        { }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MarketPrice.Models
 {
-    internal class Verification
+    public class Verification
     {
         public Guid VerificationId { get; set; }
         public required Guid UserId { get; set; }

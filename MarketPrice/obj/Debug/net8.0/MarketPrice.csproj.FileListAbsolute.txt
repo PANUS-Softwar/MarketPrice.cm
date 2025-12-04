@@ -418,3 +418,4 @@ C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\MarketPrice\obj\Debug\net
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\MarketPrice\obj\Debug\net8.0\MarketPrice.pdb
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\MarketPrice\obj\Debug\net8.0\MarketPrice.genruntimeconfig.cache
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\MarketPrice\obj\Debug\net8.0\ref\MarketPrice.dll
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\MarketPrice\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
