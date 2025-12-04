@@ -9,7 +9,7 @@ using MarketPrice.Models;
 
 namespace MarketPrice.Data
 {
-    internal class MarketPriceDbContext : DbContext
+   public class MarketPriceDbContext : DbContext
     {
         public DbSet<Commodity> Commodities { get; set; }
         public DbSet<DeliveryDetail> DeliveryDetails { get; set; }

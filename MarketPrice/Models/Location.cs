@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MarketPrice.Models
 {
-    internal class Location
+    public class Location
     {
         public Guid LocationId { get; set; }
         public int LocationTypeId { get; set; }

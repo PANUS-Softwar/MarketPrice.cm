@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BCN_MAUI.ListingsPage"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="#F5F7FA"
+             x:Name="PageTitle">
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <!-- 
+               Updated Layout Logic:
+               Row 0: Header & Search (Auto)
+               Row 1: Stats Summary (Auto)
+               Row 2: The List (Takes remaining space *)
+            -->
+            <Grid RowDefinitions="Auto, Auto, *">
+
+                <!-- 1. Header & Search -->
+                <VerticalStackLayout Grid.Row="0">
+                    <Label Text="Active Bids"
+                           FontSize="Large"
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"
+                           TextColor="#000"
+                           Margin="0,20,0,0"/>
+
+                    <Border HeightRequest="40"
+                            StrokeShape="RoundRectangle 20"
+                            Margin="20,10,20,0"
+                            Padding="15,0">
+                        <Label Text="Search..."
+                               TextColor="#A0AAB5"
+                               VerticalOptions="Center"/>
+                    </Border>
+                </VerticalStackLayout>
+
+                <!-- 2. Stats Summary (Active Bids/Offers Cards) -->
+                <VerticalStackLayout Grid.Row="1">
+                    <Border BackgroundColor="White"
+                            StrokeShape="RoundRectangle 10"
+                            Padding="10"
+                            Margin="20">
+                        <Grid ColumnDefinitions="50,*,Auto">
+                            <!-- Card 1: Bids (Blue) -->
+                            <Border Grid.Column="0"
+                                    StrokeShape="RoundRectangle 5"
+                                    HeightRequest="50"
+                                    WidthRequest="50"
+                                    BackgroundColor="#F0F5FF"
+                                    VerticalOptions="Center">
+                                <Label Text="C"
+                                       TextColor="Black"
+                                       FontAttributes="Bold"
+                                       FontSize="Large"
+                                       HorizontalOptions="Center"/>
+                            </Border>
+                            <VerticalStackLayout Grid.Column="1" Padding="10,0" VerticalOptions="Center">
+                                <Label Text="CORN" TextColor="#000" FontAttributes="Bold"/>
+                                <Label Text="Douala" TextColor="#000" FontSize="12"/>
+                                <Label Text="2 min ago" TextColor="#000" FontSize="8"/>
+                            </VerticalStackLayout>
+                            <VerticalStackLayout Grid.Column="2" VerticalOptions="Center">
+                                <Label Text="1000 FCFA" FontAttributes="Bold" TextColor="#000"/>
+                                <Label Text="100kg" TextColor="#000" FontSize="14" VerticalTextAlignment="End"/>
+                            </VerticalStackLayout>
+                        </Grid>
+                    </Border>
+                </VerticalStackLayout>
+
+                <!-- 3. The List (CollectionView) -->
+                <!-- Important: We moved this to Grid.Row="2" so it sits at the bottom -->
+                <CollectionView Grid.Row="2" 
+                                x:Name="ListingsCollectionView" 
+                                HeightRequest="500">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <!-- THE ROW DESIGN (Cookie Cutter) -->
+                            <Border BackgroundColor="White" 
+                                    StrokeShape="RoundRectangle 10" 
+                                    Margin="20,0,20,10" 
+                                    Padding="15" 
+                                    StrokeThickness="0">
+
+                                <Grid ColumnDefinitions="50, *, Auto">
+
+                                    <!-- Icon -->
+                                    <Border Grid.Column="0" BackgroundColor="#F0F5FF" HeightRequest="50" WidthRequest="50" StrokeShape="RoundRectangle 10" StrokeThickness="0">
+                                        <Label Text="{Binding Name, Converter={StaticResource FirstLetterConverter}}" 
+                                               HorizontalOptions="Center" VerticalOptions="Center" 
+                                               FontAttributes="Bold" TextColor="#2196F3"/>
+                                    </Border>
+
+                                    <!-- Info -->
+                                    <VerticalStackLayout Grid.Column="1" Margin="15,0,0,0" VerticalOptions="Center" Spacing="2">
+                                        <Label Text="{Binding Name}" FontAttributes="Bold" FontSize="15" TextColor="#333"/>
+                                        <Label Text="{Binding Location}" FontSize="13" TextColor="#999"/>
+                                    </VerticalStackLayout>
+
+                                    <!-- Price -->
+                                    <VerticalStackLayout Grid.Column="2" VerticalOptions="Center" HorizontalOptions="End">
+                                        <Label Text="{Binding Price, StringFormat='${0:F0}'}" FontAttributes="Bold" FontSize="16" TextColor="#2D3E50"/>
+                                        <Label Text="{Binding Quantity, StringFormat='{0}kg'}" FontSize="12" TextColor="#8898AA" HorizontalOptions="End"/>
+                                    </VerticalStackLayout>
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "BCN_MAUI\\BCN_MAUI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "MarketPrice.Api\\MarketPrice.Api.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

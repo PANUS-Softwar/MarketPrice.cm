@@ -6,10 +6,6 @@ C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\bin\Debug\net9.0-android\com.compa
 C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\bin\Debug\net9.0-android\com.companyname.bcn_maui-Signed.aab
 C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\bin\Debug\net9.0-android\com.companyname.bcn_maui-Signed.apk
 C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\bin\Debug\net9.0-android\com.companyname.bcn_maui-Signed.apk.idsig
-C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\bin\Debug\net9.0-android\Microsoft.Maui.Controls.HotReload.Forms.dll
-C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\bin\Debug\net9.0-android\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
-C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\bin\Debug\net9.0-android\Microsoft.VisualStudio.DesignTools.TapContract.dll
-C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\bin\Debug\net9.0-android\Microsoft.VisualStudio.DesignTools.XamlTapContract.dll
 C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\obj\Debug\net9.0-android\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs
 C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\obj\Debug\net9.0-android\build.props
 C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\obj\Debug\net9.0-android\adb.props
@@ -133,7 +129,6 @@ C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\obj\Debug\net9.0-android\BCN_MAUI.
 C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\obj\Debug\net9.0-android\BCN_MAUI.csproj.CoreCompileInputs.cache
 C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\obj\Debug\net9.0-android\BCN_MAUI.sourcelink.json
 C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\obj\Debug\net9.0-android\XamlC.stamp
-C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\obj\Debug\net9.0-android\BCN_MAUI.csproj.Up2Date
 C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\obj\Debug\net9.0-android\BCN_MAUI.dll
 C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\obj\Debug\net9.0-android\BCN_MAUI.pdb
 C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\obj\Debug\net9.0-android\BCN_MAUI.genruntimeconfig.cache
@@ -181,7 +176,6 @@ C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\obj\Debug\net9.0-android\android\a
 C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.Extensions.Options.dll
 C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.Extensions.Primitives.dll
 C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.Maui.Controls.dll
-C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.Maui.Controls.HotReload.Forms.dll
 C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.Maui.Controls.pdb
 C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.Maui.Controls.Xaml.dll
 C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.Maui.Controls.Xaml.pdb
@@ -193,9 +187,6 @@ C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\obj\Debug\net9.0-android\android\a
 C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.Maui.pdb
 C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.VisualBasic.Core.dll
 C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.VisualBasic.dll
-C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
-C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.VisualStudio.DesignTools.TapContract.dll
-C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.VisualStudio.DesignTools.XamlTapContract.dll
 C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.Win32.Primitives.dll
 C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.Win32.Registry.dll
 C:\Users\FLAVIN\Documents\PANUS_Soft\BCN_MAUI\obj\Debug\net9.0-android\android\assets\x86_64\Mono.Android.dll
