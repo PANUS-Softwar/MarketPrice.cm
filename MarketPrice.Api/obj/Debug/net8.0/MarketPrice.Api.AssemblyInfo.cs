@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MarketPrice.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6aa10553935f7d00e32d23d35e47d7503917053")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fbfc3fcec4af95110186d5f57f3cabdb36d1916c")]
 [assembly: System.Reflection.AssemblyProductAttribute("MarketPrice.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MarketPrice.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

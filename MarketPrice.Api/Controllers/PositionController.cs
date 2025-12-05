@@ -20,19 +20,9 @@ namespace MarketPrice.Api.Controllers
         [HttpPost]
         public async Task<IActionResult> CreatePosition([FromBody] Position newPosition)
         {
-            // --- A. VALIDATION ---
+           
 
-            // 1. SKIP USER CHECK (As requested)
-            // We comment this out so the API doesn't stop you.
-            // However, the Database might still stop you if "Foreign Keys" are active.
-            /* var userExists = await _context.Users.AnyAsync(u => u.UserId == newPosition.UserId);
-            if (!userExists)
-            {
-                return BadRequest("Error: The User ID provided does not exist.");
-            }
-            */
-
-            // 2. Check Commodity (We keep this because Commodities usually exist from seeding)
+            // 2. Check Commodity
             var commodityExists = await _context.Commodities.AnyAsync(c => c.CommodityId == newPosition.CommodityId);
             if (!commodityExists)
             {
@@ -51,8 +41,8 @@ namespace MarketPrice.Api.Controllers
 
             try
             {
-                await _context.SaveChangesAsync();
-            }
+                await _context.SaveChangesAsync();    }
+        
             catch (DbUpdateException ex)
             {
                 // If the database rejects the fake User ID, this block runs.

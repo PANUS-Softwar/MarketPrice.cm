@@ -4,3 +4,4 @@ C:\Users\FLAVIN\Documents\PANUS_Soft\MarketPrice\obj\Debug\net8.0\staticwebasset
 C:\Users\FLAVIN\Documents\PANUS_Soft\MarketPrice\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\FLAVIN\Documents\PANUS_Soft\MarketPrice\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\FLAVIN\Documents\PANUS_Soft\MarketPrice\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\FLAVIN\Documents\PANUS_Soft\MarketPrice\obj\Debug\net8.0\staticwebassets.build.json
