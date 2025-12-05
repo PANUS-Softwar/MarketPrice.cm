@@ -3,12 +3,17 @@ C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0-ios\iossimulator-x64\CNT_MAUI.pdb
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.Configuration.dll
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.Diagnostics.dll
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.Http.dll
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.Logging.dll
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.Logging.Debug.dll
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.Options.dll
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Extensions.Primitives.dll
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Maui.Controls.dll
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Maui.Controls.Xaml.dll
@@ -265,6 +270,10 @@ C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@2x.png
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@3x.png
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-ios\iossimulator-x64\mauisplash.stamp
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Resources\profile.png
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Resources\beans.jpg
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Resources\palm_oil.jpg
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Resources\egusi.jpg
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon76x76@2x.png
@@ -277,6 +286,12 @@ C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@3x.png
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@2x.png
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\Contents.json
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Resources\market.png
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Resources\home.png
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Resources\corn.jpg
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Resources\marketprice_logo.png
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Resources\ginger.jpg
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\Resources\onion.jpg
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@3x.png
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@2x.png
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot.png
@@ -284,6 +299,8 @@ C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-ios\iossimulator-x64\mauiimage.outputs
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\f\MauiInfo.plist
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-ios\iossimulator-x64\mauifont.stamp
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\f\DMSerifText-Regular.ttf
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\f\Domine-Regular.ttf
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\f\OpenSans-Regular.ttf
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-ios\iossimulator-x64\resizetizer\f\OpenSans-Semibold.ttf
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-ios\iossimulator-x64\actool\_PartialAppManifest.items
@@ -310,3 +327,4 @@ C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-ios\iossimulator-x64\CNT_MAUI.pdb
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-ios\iossimulator-x64\CNT_MAUI.genruntimeconfig.cache
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\obj\Debug\net9.0-ios\iossimulator-x64\ref\CNT_MAUI.dll
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\CNT_MAUI\bin\Debug\net9.0-ios\iossimulator-x64\CommunityToolkit.Mvvm.dll

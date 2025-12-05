@@ -412,10 +412,10 @@ C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\MarketPrice\obj\Debug\net
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\MarketPrice\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\MarketPrice\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\MarketPrice\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\MarketPrice\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\MarketPrice\obj\Debug\net8.0\MarketPr.8354A0F0.Up2Date
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\MarketPrice\obj\Debug\net8.0\MarketPrice.dll
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\MarketPrice\obj\Debug\net8.0\refint\MarketPrice.dll
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\MarketPrice\obj\Debug\net8.0\MarketPrice.pdb
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\MarketPrice\obj\Debug\net8.0\MarketPrice.genruntimeconfig.cache
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\MarketPrice\obj\Debug\net8.0\ref\MarketPrice.dll
-C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\MarketPrice\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

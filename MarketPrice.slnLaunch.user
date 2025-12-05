@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "CNT_MAUI\\CNT_MAUI.csproj",
+        "Action": "Start",
+        "DebugTarget": "Pixel 7 - API 35 (Android 15.0 - API 35)"
+      },
+      {
+        "Path": "CNT_MarketPriceApi\\CNT_MarketPriceApi.csproj",
+        "Action": "Start",
+        "DebugTarget": "http"
+      }
+    ]
+  }
+]

@@ -4,11 +4,42 @@
         <name>CNT_MAUI</name>
     </assembly>
     <members>
+        <member name="T:CNT_MAUI.ViewModels.LookupDataTypeViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:CNT_MAUI.ViewModels.LookupDataTypeViewModel.LookupDataTypes">
+            <inheritdoc cref="F:CNT_MAUI.ViewModels.LookupDataTypeViewModel.lookupDataTypes"/>
+        </member>
+        <member name="F:CNT_MAUI.ViewModels.LookupDataTypeViewModel.loadDataCommand">
+            <summary>The backing field for <see cref="P:CNT_MAUI.ViewModels.LookupDataTypeViewModel.LoadDataCommand"/>.</summary>
+        </member>
+        <member name="P:CNT_MAUI.ViewModels.LookupDataTypeViewModel.LoadDataCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:CNT_MAUI.ViewModels.LookupDataTypeViewModel.LoadDataAsync"/>.</summary>
+        </member>
         <member name="T:CNT_MAUI.Resource">
             <summary>
             Android Resource Designer class.
             Exposes the Android Resource designer assembly into the project Namespace.
             </summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.LookupDataTypes">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "LookupDataTypes" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.LookupDataTypes">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "LookupDataTypes" generated properties.</summary>
         </member>
     </members>
 </doc>

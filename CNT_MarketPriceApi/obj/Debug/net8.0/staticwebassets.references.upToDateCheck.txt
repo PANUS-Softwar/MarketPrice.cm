@@ -1,3 +1,5 @@
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\MarketPrice\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\MarketPrice\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\MarketPrice\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\MarketPrice\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Tertu\source\repos\PANUS-Softwar\Market_Price\MarketPrice\obj\Debug\net8.0\staticwebassets.build.json

@@ -4,6 +4,8 @@
 <dict>
   <key>UIAppFonts</key>
   <array>
+	<string>DMSerifText-Regular.ttf</string>
+	<string>Domine-Regular.ttf</string>
 	<string>OpenSans-Regular.ttf</string>
 	<string>OpenSans-Semibold.ttf</string>
   </array>
