@@ -1,5 +1,8 @@
+using System.Runtime.CompilerServices;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Windows.Input;
+
 
 namespace ATAN_MAUI;
 
@@ -11,6 +14,7 @@ public partial class HomePage : ContentPage
     public HomePage()
     {
         InitializeComponent();
+        this.BindingContext = this;
         SubmitBidCommand = new Command<CommodityModel>(OnSubmitBid);
 
         CommodityList = new ObservableCollection<CommodityModel>
@@ -18,6 +22,7 @@ public partial class HomePage : ContentPage
             new CommodityModel
             {
                 Name = "Maize",
+                Category = "Grain",
                 BidPrice = "450",
                 AskPrice = "480",
                 OtherPrices = new ObservableCollection<string> { "430", "420", "400" }
@@ -25,6 +30,7 @@ public partial class HomePage : ContentPage
             new CommodityModel
             {
                 Name = "Beans",
+                Category = "OilSeed",
                 BidPrice = "800",
                 AskPrice = "820",
                 OtherPrices = new ObservableCollection<string> { "780", "760", "750" }
@@ -34,15 +40,17 @@ public partial class HomePage : ContentPage
         CommodityListView.ItemsSource = CommodityList;
     }
 
-    private void OnSubmitBid(CommodityModel commodity)
+    private async void OnSubmitBid(CommodityModel commodity)
     {
         if (string.IsNullOrEmpty(commodity.UserEnteredPrice))
         {
-            DisplayAlert("Error", "Please enter a price before submitting your bid/offer.", "OK");
+            await DisplayAlert("Error", "Please enter a price before submitting your bid/offer.", "OK");
             return;
         }
 
-        _ = DisplayAlert("Error", "Please enter a price before submitting your bid/offer.", "OK");
+        await DisplayAlert("Bid Submitted",
+                               $"Successfully submitted a price of: {commodity.UserEnteredPrice} for {commodity.Name}.",
+                               "OK");
     }
 
     // SEARCH
@@ -83,11 +91,32 @@ public partial class HomePage : ContentPage
     }
 }
 
-public class CommodityModel
+public class CommodityModel:INotifyPropertyChanged
 {
+    // Submit bid/offer button notification event
+    public event PropertyChangedEventHandler? PropertyChanged;
+
+    protected virtual void OnPropertyChanged([CallerMemberName] string? propertyName = null)
+    {
+        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+    }
+
     public string? Name { get; set; }
+    public string? Category { get; set; }
     public string? BidPrice { get; set; }
     public string? AskPrice { get; set; }
     public ObservableCollection<string>? OtherPrices { get; set; }
-    public string? UserEnteredPrice { get; set; }
+    private string? userEnteredPrice;
+    public string? UserEnteredPrice
+    {
+        get =>userEnteredPrice;
+        set
+        {
+            if(userEnteredPrice != value)
+            {
+                userEnteredPrice = value;
+                OnPropertyChanged();
+            }
+        }
+    }
 }

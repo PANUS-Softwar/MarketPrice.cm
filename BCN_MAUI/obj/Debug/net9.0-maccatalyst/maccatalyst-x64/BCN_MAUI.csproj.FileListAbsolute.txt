@@ -310,3 +310,6 @@ C:\Users\natan\Documents\ATAN_Internship_dir\Internship_Project\Market_Price\BCN
 C:\Users\natan\Documents\ATAN_Internship_dir\Internship_Project\Market_Price\BCN_MAUI\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\BCN_MAUI.pdb
 C:\Users\natan\Documents\ATAN_Internship_dir\Internship_Project\Market_Price\BCN_MAUI\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\BCN_MAUI.genruntimeconfig.cache
 C:\Users\natan\Documents\ATAN_Internship_dir\Internship_Project\Market_Price\BCN_MAUI\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\ref\BCN_MAUI.dll
+C:\Users\ANGE\Documents\Personal and Professional\Internship_Activities\Panus_Internship\Internship_Project\PricingPlatform\Market_Price\BCN_MAUI\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet-nativeaot-debug.a
+C:\Users\ANGE\Documents\Personal and Professional\Internship_Activities\Panus_Internship\Internship_Project\PricingPlatform\Market_Price\BCN_MAUI\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet-nativeaot.a
+C:\Users\ANGE\Documents\Personal and Professional\Internship_Activities\Panus_Internship\Internship_Project\PricingPlatform\Market_Price\BCN_MAUI\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet.a

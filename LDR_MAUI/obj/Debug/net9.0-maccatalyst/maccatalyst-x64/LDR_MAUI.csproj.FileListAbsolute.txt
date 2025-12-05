@@ -310,3 +310,5 @@ C:\Users\natan\Documents\ATAN_Internship_dir\Internship_Project\Market_Price\LDR
 C:\Users\natan\Documents\ATAN_Internship_dir\Internship_Project\Market_Price\LDR_MAUI\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\LDR_MAUI.pdb
 C:\Users\natan\Documents\ATAN_Internship_dir\Internship_Project\Market_Price\LDR_MAUI\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\LDR_MAUI.genruntimeconfig.cache
 C:\Users\natan\Documents\ATAN_Internship_dir\Internship_Project\Market_Price\LDR_MAUI\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\ref\LDR_MAUI.dll
+C:\Users\ANGE\Documents\Personal and Professional\Internship_Activities\Panus_Internship\Internship_Project\PricingPlatform\Market_Price\LDR_MAUI\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\Microsoft.VisualBasic.Core.dll
+C:\Users\ANGE\Documents\Personal and Professional\Internship_Activities\Panus_Internship\Internship_Project\PricingPlatform\Market_Price\LDR_MAUI\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\System.Private.CoreLib.dll
